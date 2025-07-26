@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/selahces/public_html/selahstudioks.com
+    - export DEPLOYPATH=/home2/selahces/public_html/selahstudioks.com
     - /bin/cp -r * $DEPLOYPATH
