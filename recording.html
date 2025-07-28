@@ -258,6 +258,41 @@
 
       </footer>
 
+<button id="backToTop" title="Back to top">↑</button>
+
+
+            <script>
+                let hasScrolled = false;
+                let scrollTimer;
+
+                window.addEventListener('scroll', () => {
+                if (!hasScrolled) {
+                    hasScrolled = true;
+                    setTimeout(() => {
+                    if (window.scrollY > 100) {
+                        document.getElementById('backToTop').classList.add('show');
+                        document.getElementById('backToTop').classList.remove('hide');
+                    }
+                    }, 1000);
+                }
+
+                clearTimeout(scrollTimer);
+                scrollTimer = setTimeout(() => {
+                    if (window.scrollY > 100) {
+                    document.getElementById('backToTop').classList.add('show');
+                    document.getElementById('backToTop').classList.remove('hide');
+                    } else {
+                    document.getElementById('backToTop').classList.remove('show');
+                    document.getElementById('backToTop').classList.add('hide');
+                    }
+                }, 100);
+                });
+
+                document.getElementById('backToTop').addEventListener('click', () => {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+                });
+            </script>
+
       </div>
 
     </div>
