@@ -782,15 +782,6 @@ p {
 
 
 
-.intro-text:first-line {
-
-
-
-}
-
-
-
-
 
 p::first-letter {
 
@@ -1306,11 +1297,6 @@ h2.contact-name {
 
 
 
-h3 {
-
-
-
-}
 
 
 
@@ -1731,13 +1717,11 @@ span.phone-des {
 
   }
 
+}
+
 
 
 @media (max-width: 639px) {
-
-
-
-
 
 
 
@@ -1752,9 +1736,6 @@ span.phone-des {
     h1 img {
 
       margin: 0;
-
-      display: inline-block;
-
       float: left;
 
     }
@@ -2107,9 +2088,4 @@ span.phone-des {
 
   }
 
-
-
-
-
 }
-
