@@ -79,7 +79,7 @@ body {
 }
 
 .homepage .wrapper  {
-    height: 5170px;
+    height: 4790px;
 }
 
 .wrapper {
@@ -1075,6 +1075,8 @@ footer {
 
   display: flex;
 
+  margin-bottom: 20px;
+
 
 
 }
@@ -1547,7 +1549,7 @@ span.phone-des {
 
   body {
 
-    background: none;
+   
 
     width: 100%;
 
@@ -1637,7 +1639,7 @@ span.phone-des {
 
   .wrapper {
 
-    height: 5450px !important;
+    height: 5250px !important;
 
   }
 
