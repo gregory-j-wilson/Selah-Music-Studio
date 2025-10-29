@@ -30,7 +30,7 @@
 
 body {
 
-  background-image: url('wood-orangish-crop.jpg');
+  background-image: url('wood-orangish-crop.jpg') !important;
 
   background-position: middle;
 
@@ -1178,7 +1178,7 @@ a:visited {
 
   body {
 
-  
+  background-image: url('wood-orangish-crop.jpg');
 
     width: 100%;
 
