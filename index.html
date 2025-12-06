@@ -344,7 +344,7 @@
 
           <a class="footer-email" href="mailto: greg@selahstudioks.com">greg@selahstudioks.com</a><br>
 
-          <span class="copyright">&copy; 2023 Selah Music Studio</span>
+          <span class="copyright">&copy; <span id="year"></span> Selah Music Studio</span>
 
 
 
@@ -388,6 +388,10 @@
 
 
 <button id="backToTop" title="Back to top">↑</button>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
 
 
             <script>
