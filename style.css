@@ -1137,6 +1137,36 @@ span.copyright {
 
 
 
+.site-credit {
+
+  text-align: center;
+
+  color: white;
+
+  display: block;
+
+  font-family: 'EB Garamond', serif;
+
+  max-width: 640px;
+
+  margin-left: auto;
+
+  margin-right: auto;
+
+  padding: 0 15px;
+
+  box-sizing: border-box;
+
+}
+
+.site-credit a {
+
+  color: white;
+
+}
+
+
+
 span.address {
 
   display: block;
