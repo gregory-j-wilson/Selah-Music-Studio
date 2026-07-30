@@ -344,7 +344,7 @@
 
           <a class="footer-email" href="mailto: greg@selahstudioks.com">greg@selahstudioks.com</a><br>
 
-          <span class="copyright">&copy; 2023 Selah Music Studio</span>
+          <span class="copyright">&copy; <span id="year"></span> Selah Music Studio</span>
 
 
 
@@ -374,7 +374,7 @@
       <br>
       <span class="site-credit">Website design and development by Greg Wilson at <a href="https://selahcreate.com" target="_blank">Selah Create</a>.</span>
       <br>
-      <span class="site-credit">Selah Music Studio is a sub-business of Selah Creative Services, LLC - registered and in good standing in the state of Kansas with business ID 10016648.</span>
+      <span class="site-credit"><b>Selah Music Studio</b> is a sub-business of Selah Creative Services, LLC - registered and in good standing in the state of Kansas with business ID 10016648.</span>
       <br>
       </div>
 
@@ -384,6 +384,10 @@
 
 
 <button id="backToTop" title="Back to top">↑</button>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
 
 
             <script>
