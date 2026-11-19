@@ -50,6 +50,8 @@ body {
 
   height: 670px;
 
+  min-height: 100vh;
+
   background-color: #310d02;
 
   position: absolute;
